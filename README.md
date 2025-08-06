@@ -12,22 +12,34 @@ The primary goal is to build and evaluate various machine learning models to pre
 
 ## 📁 Project Structure
 
+```
 customer_churn_project/
 ├── data/
-│ ├── real dataset
-│ └── processed/ # Cleaned and processed data
-├── notebooks/ # Jupyter notebooks for each step
-│ ├── 1_data_preparation.ipynb
-│ ├── 2_eda.ipynb
-│ ├── 3_feature_engineering.ipynb
-│ ├── 4_model_training.ipynb
-│ ├── 5_model_explainability.ipynb
-│ └── 6_streamlit_app.ipynb
-├── models/ # Trained models stored as .pkl files
-├── stremlit/ # Streamlit web app source code
-│ └── streamlit_app.py
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+│   ├── raw/
+│   │   └── customer_churn.csv
+│   └── processed/
+│       └── cleaned_customer_churn.csv
+│
+├── notebooks/
+│   ├── 1_data_preparation.ipynb
+│   ├── 2_eda.ipynb
+│   ├── 3_feature_engineering.ipynb
+│   ├── 4_model_training.ipynb
+│   ├── 5_model_explainability.ipynb
+│   └── 6_final_report_and_model_deployment.ipynb
+│
+├── models/
+│   └── final_model.pkl
+│
+├── reports/
+│   └── final_report.pdf
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+
 
 
 ---

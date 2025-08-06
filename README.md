@@ -15,10 +15,10 @@ The primary goal is to build and evaluate various machine learning models to pre
 ```
 customer_churn_project/
 ├── data/
-│   ├── raw/
-│   │   └── customer_churn.csv
+│   ├── customer_churn.csv
 │   └── processed/
-│       └── cleaned_customer_churn.csv
+│       ├── cleaned_customer_churn.csv
+|       ├── featured_customer_churn.csv 
 │
 ├── notebooks/
 │   ├── 1_data_preparation.ipynb
@@ -29,14 +29,13 @@ customer_churn_project/
 │   └── 6_final_report_and_model_deployment.ipynb
 │
 ├── models/
-│   └── final_model.pkl
+│   └── best_model.pkl
 │
-├── reports/
-│   └── final_report.pdf
+├── stremlit/
+│   └── streamlit_app.py
 │
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 

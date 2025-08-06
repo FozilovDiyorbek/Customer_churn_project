@@ -4,10 +4,10 @@ import pandas as pd
 
 st.title("Customer Churn Prediction")
 
-# Modelni yuklash
+# Load model
 model = joblib.load("C:/Projects/Customer_churn_project/models/best_model.pkl")
 
-# Inputlar
+# Inputs
 credit_score = st.slider("Credit Score", 300, 850, 650)
 age = st.slider("Age", 18, 100, 35)
 tenure = st.slider("Tenure (Years)", 0, 10, 3)
@@ -18,7 +18,7 @@ estimated_salary = st.number_input("Estimated Salary", value=50000.0)
 geography = st.selectbox("Geography", ["France", "Germany", "Spain"])
 gender = st.selectbox("Gender", ["Male", "Female"])
 
-# One-hot encoding uchun tayyorlash
+# Preparing for one-hot encoding
 data = pd.DataFrame({
     "CreditScore": [credit_score],
     "Age": [age],

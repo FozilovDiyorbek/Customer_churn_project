@@ -36,8 +36,5 @@ data = pd.DataFrame({
 
 if st.button("Predict"):
     prediction = model.predict(data)
-    if prediction[0] == 1:
-        st.write("🟥 Natija: **The client leaves**")
-    else:
-        st.write("🟩 Natija: **The client will not leave.**")
+    st.write("Churn (Exited):", prediction[0])
 

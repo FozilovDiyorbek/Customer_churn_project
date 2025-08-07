@@ -5,7 +5,7 @@ import pandas as pd
 st.title("Customer Churn Prediction")
 
 # Load model
-model = joblib.load("C:/Projects/Customer_churn_project/models/best_model.pkl")
+model = joblib.load("models/best_model.pkl")
 
 # Inputs
 credit_score = st.slider("Credit Score", 300, 850, 650)

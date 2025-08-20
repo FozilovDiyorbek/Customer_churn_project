@@ -3,6 +3,8 @@
 This repository contains an end-to-end machine learning project that predicts whether a customer will churn (i.e., leave the service) based on various features. The dataset used in this project comes from a bank and includes demographic, geographic, and account-related information about customers.
 
 ---
+####  Try using the demo version
+You can use this code in Streamlit in a ready-made Demo format by following this link: "https://customerchurnproject-qhitdnc2ayaa5gy2fmevzy.streamlit.app/"
 
 ## 🧠 Project Objective
 

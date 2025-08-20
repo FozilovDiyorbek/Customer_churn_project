@@ -73,19 +73,30 @@ Multiple models were evaluated using metrics such as Accuracy, Precision, Recall
 ```bash
 git clone https://github.com/FozilovDiyorbek/customer_churn_project.git
 cd customer_churn_project
+```
 
 ## 2.Create and activate a virtual environment:
+```
 python -m venv .venv
+```
 # On Windows:
+```
 .venv\Scripts\activate
+```
 # On Unix/Mac:
+```
 source .venv/bin/activate
+```
 
 ## 3.Install the required dependencies:
+```
 pip install -r requirements.txt
+```
 
 ## 4.Run the Streamlit app:
+```
 streamlit run stremlit/streamlit_app.py
+```
 
 🔍 Exploratory Data Analysis (EDA)
 The EDA includes:

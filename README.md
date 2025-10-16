@@ -1,4 +1,4 @@
-# 📊 Customer Churn Prediction Project
+# Customer Churn Prediction Project
 
 This repository contains an end-to-end machine learning project that predicts whether a customer will churn (i.e., leave the service) based on various features. The dataset used in this project comes from a bank and includes demographic, geographic, and account-related information about customers.
 
@@ -6,7 +6,7 @@ This repository contains an end-to-end machine learning project that predicts wh
 ####  Try using the demo version
 You can use this code in Streamlit in a ready-made Demo format by following this link: "https://customerchurnproject-qhitdnc2ayaa5gy2fmevzy.streamlit.app/"
 
-## 🧠 Project Objective
+## Project Objective
 
 The primary goal is to build and evaluate various machine learning models to predict customer churn and deploy the best-performing model using Streamlit as an interactive web application.
 
@@ -45,7 +45,7 @@ customer_churn_project/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Languages:** Python  
 - **Data Manipulation:** Pandas, NumPy  
@@ -57,7 +57,7 @@ customer_churn_project/
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 Multiple models were evaluated using metrics such as Accuracy, Precision, Recall, F1-Score, and ROC-AUC. The top-performing model was:
 
@@ -69,7 +69,7 @@ Multiple models were evaluated using metrics such as Accuracy, Precision, Recall
 
 ## ⚙️ How to Run the Project
 
-1. **Clone the repository:**
+## 1. **Clone the repository:**
 ```bash
 git clone https://github.com/FozilovDiyorbek/customer_churn_project.git
 cd customer_churn_project
@@ -98,7 +98,7 @@ pip install -r requirements.txt
 streamlit run stremlit/streamlit_app.py
 ```
 
-🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 The EDA includes:
 
 Distribution of churned vs. retained customers
@@ -109,7 +109,7 @@ Categorical feature analysis (e.g., Gender, Geography)
 
 Numerical feature analysis (e.g., CreditScore, Balance, Age)
 
-🧪 Feature Engineering
+## Feature Engineering
 Feature engineering steps included:
 
 One-hot encoding for categorical variables
@@ -120,7 +120,7 @@ Handling class imbalance using SMOTE
 
 Creating new features from existing ones
 
-🧠 Model Training & Evaluation
+## Model Training & Evaluation
 The following models were trained and compared:
 
 Logistic Regression
@@ -133,7 +133,7 @@ LightGBM
 
 CatBoost
 
-Evaluation metrics:
+## Evaluation metrics:
 
 Accuracy
 
@@ -143,16 +143,13 @@ ROC-AUC Score
 
 Confusion Matrix
 
-💡 Model Explainability
+## Model Explainability
 SHAP (SHapley Additive exPlanations) was used to interpret model predictions and understand feature importance.
 
-🌐 Web App (Streamlit)
+## Web App (Streamlit)
 A user-friendly web interface was developed with Streamlit to input customer details and predict churn probability in real-time.
 
-👤 Author
+## Author
 Diyorbek Fozilov
 GitHub: https://github.com/FozilovDiyorbek
 Email: diyorbekfozilov011@gmail.com  
-
-📄 License
-This project is open-source and available under the MIT License.

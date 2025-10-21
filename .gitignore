@@ -1,3 +1,5 @@
 .devcontainer/
 notebooks/catboost_info/
 venv/
+FastAPI_app/__pycache__/
+src/__pycache__/

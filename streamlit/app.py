@@ -4,7 +4,6 @@ import pandas as pd
 
 st.title("Customer Churn Prediction")
 
-# Load model
 model = joblib.load("models/best_model.pkl")
 
 # Inputs
